@@ -1,0 +1,88 @@
+/**
+AutoComplete
+**/
+.ui_autocomplete{
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	position: absolute;
+	z-index: 1;
+	border: 1px solid #DDD;
+	color: #333;
+	list-style: none;
+	padding: 2px;
+	margin: 0;
+	display: block;
+	float: left;
+	background-color: #f6f6f6;
+	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	
+	-webkit-box-shadow: 0 5px 10px #999;  
+	-moz-box-shadow: 0 5px 10px #999;  
+	box-shadow: 0 5px 10px #999;  
+}
+.ui_autocomplete li.auto_item{
+	margin: 0;
+	padding: 2px 4px;
+	zoom: 1;
+	float: left;
+	clear: left;
+	width: 96%;
+	cursor: pointer;
+	font-size: .8em;
+}
+.ui_autocomplete li.auto_item:hover, .ui_autocomplete li.selec{
+	background-color: #ccc;
+}
+.auto_result{
+	position:relative;
+}
+
+/*Autocomplete de image*/
+#img_autocomplete{
+	position: absolute;
+	z-index: 10;
+}
+.imgareaselect-selection{
+	z-index: 2;
+}
+
+/*tipo de autocomplete - cambio*/
+.taggeo_group{
+	background-color: #000;
+	padding: 4px;
+	border: 1px #fff solid;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#type_aucomplete{
+}
+#lbltype_aucomplete{
+	font-size: .8em;
+	color:#fff;
+}
+
+/** Buscador autocomplete **/
+ul.ui_autocomplete.search li.auto_item{
+	padding: 4px 4px;
+}
+ul.ui_autocomplete.search li.auto_item:hover, ul.ui_autocomplete.search li.selec{
+	background-color: #ddd;
+}
+ul.ui_autocomplete.search .search_img{
+	float:left;
+	width: 40px;
+	height: 40px;
+}
+ul.ui_autocomplete.search .search_info{
+	float:left;
+	width:150px;
+	font-size: .7em;
+	color: #888;
+	margin-left: 3px;
+}
+.hed_txtbuscar.load{
+	background: url("../images/loader_min.gif") no-repeat right center;
+}

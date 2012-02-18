@@ -1,0 +1,42 @@
+body{
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	
+}
+
+#frm_upload{
+	text-align: center;
+	font-size: .8em;
+	color: #9f9f9f;
+}
+#frm_upload label{
+	color: #666;
+	font-size:.9em;
+	font-weight: bold;
+}
+
+.btn_posty{
+	font-weight:bold;
+	background-color: #460302;
+	color: #fff;
+	padding: 4px 6px;
+	cursor:pointer;
+	
+	border: none;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+#msg{
+	font-size: .7em;
+	text-align: center;
+	padding:4px 0;
+	margin:5px 0;
+	font-weight:bold;
+	color: #460302;
+	
+	border: 1px #ccc solid;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
